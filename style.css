@@ -73,7 +73,7 @@
         height: 120px;
     }
     .footer{
-        max-height: 120px;
+        max-height: 90px;
     }
     section{
         width: 99%;
@@ -81,8 +81,7 @@
     }
     .logo{
        margin-left: 90px;
-       height:30px;
-        width:50px;
+      
     }
 }
 
