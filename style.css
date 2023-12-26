@@ -75,12 +75,15 @@
     .footer{
         max-height: 150px;
     }
+    
     section{
         width: 99%;
         height: 300px;
     }
     .logo{
        margin-left: 90px;
+       height: 30px;
+       width:50px;
     }
 }
 
