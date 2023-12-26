@@ -74,6 +74,7 @@
     }
     .footer{
         max-height: 135px;
+        background-color: white;
     }
     section{
         width: 99%;
