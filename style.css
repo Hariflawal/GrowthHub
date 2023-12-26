@@ -14,7 +14,7 @@
     /* display: flex; */
       
 }
-.section-two,.section-three,.section-five,.section-six,.section-seven{
+.section-two,.section-three,.section-four,.section-five,.section-six,.section-seven{
    /* border: 1px solid black;    */
    /* border-radius: 10px; */
    background-color: #f8f8f8;
@@ -75,15 +75,12 @@
     .footer{
         max-height: 150px;
     }
-    
     section{
         width: 99%;
         height: 300px;
     }
     .logo{
        margin-left: 90px;
-       height: 30px;
-       width:50px;
     }
 }
 
