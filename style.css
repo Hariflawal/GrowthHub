@@ -11,9 +11,9 @@
 #container{
     width: 100%;
     height: 150vh;
-    /* display: flex; */
-      
+    /* display: flex; */  
 }
+
 .section-two,.section-three,.section-four,.section-five,.section-six,.section-seven{
    /* border: 1px solid black;    */
    /* border-radius: 10px; */
@@ -22,10 +22,11 @@
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
    padding: 50px 0;
+
 }
 #hero{
     background-color: #f8f8f8;
-    padding: 50px 0;
+     padding: 50px 0; 
     text-align: center;
     color: #333;
 }
@@ -45,14 +46,10 @@
     width: 90%;
     height: 60%;
 }
-.socials{
-    background-color: #333;
-}
 .socials :hover{
     color: red;
 }
 .footer{
-    background-color: #333;
     text-align: center;
     padding: 50px 0;
     border-radius: 10px;
@@ -63,39 +60,51 @@
     #container{
         align-items: center;
          max-width: 100%;
-         max-height: 290px;
+         max-height: 250px;
          margin: 0 auto;
          font-size: smaller;
-
+        
          .header{
             max-height: 130px;
            }
          
         }
+    
         img{
-            max-width: 120%;
-            height: 150px;
+            max-width: 100%;
+            height: 170px;
+            
         }
         .footer{
-            max-height: 135px;
-            background-color: #f8f8f8;
+            max-height: 155px;
             
+        }
+        .socials{
+            margin-bottom: -100px;
+            padding-top: 40px;
         }
         section{
             width: 99%;
-            height: 300px;
+            height: 180px;
+            justify-content: center;
         }
         .logo img{
            padding-left: 35px;
-           margin-bottom: 25px;
-           width: 40%;
+           margin-top: 34px;
+           width: 33%;
            height: 130%;
            /* size-adjust: x-small; */
         }
-        .header h1, p{
-           padding-top: 120px;
-           margin-bottom: -140px;
+        /*The error in this code is the P paragraph(text class) styling atttached*/
+        .header h1{
+           height: 170px;
+          
         }
+        .text{
+            
+            height: 300px;
+        }
+       
     } 
    
 
