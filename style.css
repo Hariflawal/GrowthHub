@@ -100,9 +100,9 @@
            height: 170px;
           
         }
-        .text{
-            
+        .text-below{
             height: 300px;
+            margin-top: -250px;
         }
        
     } 
